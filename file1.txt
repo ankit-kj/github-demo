@@ -1,1 +1,2 @@
 This is file1
+Added some extra lines
