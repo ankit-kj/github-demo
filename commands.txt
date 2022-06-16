@@ -1,0 +1,25 @@
+Touch .gitignore
+
+Git log
+Git commit -m ""
+Git commit -a
+
+Git add .
+Git add file1.txt
+
+Git checkout ${commit id}
+
+// remove from staging area
+Git rm -f file1.txt   // permanently deletes the file
+Git rm --cached file1.txt
+
+
+// braches
+Git checkout -b branchName.  // create new branch
+Git branch branchName
+
+Git checkout branchName // switching btwn branches
+Git branch -a // lists all branches
+Git branch -d branchName // deletes a branch
+
+Git merge dev / merges the dev branch to the current branch
